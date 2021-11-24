@@ -5,22 +5,25 @@
         "php": "^7.1.3",
         "ext-ctype": "*",
         "ext-iconv": "*",
-        "api-platform/core": "^2.1",
+        "api-platform/core": "^2.5",
         "composer/package-versions-deprecated": "^1.11",
         "doctrine/annotations": "^1.0",
-        "doctrine/doctrine-bundle": "^1.6",
-        "doctrine/doctrine-migrations-bundle": "^2.0",
-        "doctrine/orm": "^2.4.5",
+        "doctrine/doctrine-bundle": "^1.11",
+        "doctrine/doctrine-migrations-bundle": "^3.0",
+        "doctrine/orm": "^2.7",
         "nelmio/cors-bundle": "^1.5",
-        "nesbot/carbon": "^2.17",
-        "phpdocumentor/reflection-docblock": "^3.0 || ^4.0",
-        "symfony/asset": "4.2.*|4.3.*|4.4.*",
+        "phpdocumentor/reflection-docblock": "^5.3",
+        "symfony/asset": "4.2.*|4.3.*",
         "symfony/console": "4.2.*",
         "symfony/dotenv": "4.2.*",
-        "symfony/expression-language": "4.2.*|4.3.*|4.4.*",
+        "symfony/expression-language": "4.2.*|4.3.*",
         "symfony/flex": "^1.1",
         "symfony/framework-bundle": "4.2.*",
+        "symfony/property-access": "4.2.*|4.3.*",
+        "symfony/property-info": "4.2.*|4.3.*",
+        "symfony/proxy-manager-bridge": "4.2.*|4.3.*",
         "symfony/security-bundle": "4.2.*|4.3.*",
+        "symfony/serializer": "4.2.*|4.3.*",
         "symfony/twig-bundle": "4.2.*|4.3.*",
         "symfony/validator": "4.2.*|4.3.*",
         "symfony/yaml": "4.2.*"
@@ -70,10 +73,5 @@
             "allow-contrib": false,
             "require": "4.2.*|4.3.*"
         }
-    },
-    "require-dev": {
-        "symfony/maker-bundle": "^1.11",
-        "symfony/stopwatch": "4.2.*|4.3.*",
-        "symfony/web-profiler-bundle": "4.2.*|4.3.*"
     }
 }
