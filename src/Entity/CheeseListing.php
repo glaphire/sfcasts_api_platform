@@ -29,6 +29,11 @@ class CheeseListing
     private $price;
 
     /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $description;
+
+    /**
      * @ORM\Column(type="datetime")
      */
     private $createdAt;
@@ -89,5 +94,15 @@ class CheeseListing
         $this->isPublished = $isPublished;
 
         return $this;
+    }
+
+    public function getDescription(): string
+    {
+        return $this->description;
+    }
+
+    public function setDescription(string $description): void
+    {
+        $this->description = $description;
     }
 }
