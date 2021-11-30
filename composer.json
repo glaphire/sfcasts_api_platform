@@ -74,5 +74,9 @@
             "allow-contrib": false,
             "require": "4.2.*|4.3.*"
         }
+    },
+    "require-dev": {
+        "symfony/stopwatch": "4.2.*|4.3.*",
+        "symfony/web-profiler-bundle": "4.2.*|4.3.*"
     }
 }
